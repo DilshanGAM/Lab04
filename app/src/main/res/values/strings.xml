@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lab04</string>
+    <string name="namebox_hint">Enter name</string>
+    <string name="emailbox_hint">Enter Email</string>
+    <string name="passbox_hint">Enter Password</string>
+    <string name="repassbox_hint">Re Enter Password</string>
+    <string name="submit_button_text">Submit</string>
 </resources>
