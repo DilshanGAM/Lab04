@@ -10,39 +10,69 @@
     <EditText
         android:id="@+id/edtName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/namebox_hint"
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/emailbox_hint"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edtPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/passbox_hint"
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/edtReTypePassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/repassbox_hint"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:hint="@string/submit_button_text"
         android:text="@string/submit_button_text" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/cancel_button_text" />
 </LinearLayout>

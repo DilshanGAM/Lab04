@@ -5,4 +5,5 @@
     <string name="passbox_hint">Enter Password</string>
     <string name="repassbox_hint">Re Enter Password</string>
     <string name="submit_button_text">Submit</string>
+    <string name="cancel_button_text">Cancel</string>
 </resources>
